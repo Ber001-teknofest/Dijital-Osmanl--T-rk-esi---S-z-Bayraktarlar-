@@ -27,7 +27,7 @@ veriler = [
     ("علـاقـدر", "ilgili"),
 ]
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     for osmanlica, gercek in veriler:
         ceviri = osmanlica_cevir(osmanlica, osmanli_to_latin)
         oran = harf_benzeme_orani(ceviri, gercek)
